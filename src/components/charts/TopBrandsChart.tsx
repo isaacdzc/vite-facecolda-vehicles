@@ -24,7 +24,7 @@ export const TopBrandsChart: React.FC<TopBrandsChartProps> = ({ data }) => {
             />
             <YAxis stroke="#94a3b8" tick={{ fontSize: 11 }} />
             <Tooltip contentStyle={{ backgroundColor: '#0f172a', borderColor: '#334155', color: '#fff' }} />
-            <Bar dataKey="Total" fill="#10b981" radius={[4, 4, 0, 0]} />
+            <Bar dataKey="total" fill="#10b981" radius={[4, 4, 0, 0]} />
           </BarChart>
         </ResponsiveContainer>
       </div>
